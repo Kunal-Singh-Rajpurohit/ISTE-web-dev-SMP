@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISTE SMP</title>
+</head>
+<body>
+    <h1>Resister Yourself</h1>
+    <p>Your data is safe with us.We are collecting this data to known more about you. Knowing you will help us.</p>
+    <h2>Fill this form</h2>
+    <form action="process.php" method="POST">
+      <label>First Name :</label>
+      <input type="text" name="first-name">
+      <br><br>
+      <label>Last Name :</label>
+      <input type="text" name="last-name">
+      <br><hr>
+      <label>Email Id :</label>
+      <input type="text" name="email-id">
+      <br><br>
+      <label>Contact number :</label>
+      <input type="number" name="contact number">
+      <br><br>
+      <label>Password :</label>
+      <input type="password" name="password">
+      <br><hr>
+      <div>
+          <label>Your Branch</label>
+          <select name="Your Branch">
+              <option value="CS">Computer Science</option>
+              <option value="IT">Information Technology</option>
+              <option value="AI">Artificial Intelligence</option>
+              <option value="MN">Mining Engineering</option>
+              <option value="ME">Mechanical Engineering</option>
+          </select>
+          <br><br>
+          Current Year
+          <input type="radio" id="1st year"
+          name="current_year" value="1st year">
+          <label for="1st year">1st year</label>
+          <input type="radio" id="2nd year"
+          name="current_year" value="2nd year">
+          <label for="2nd year">2nd year</label>
+          <input type="radio" id="3rd year"
+          name="current_year" value="3rd year">
+          <label for="3rd year">3rd year</label>
+          <input type="radio" id="4th year"
+          name="current_year" value="4th year">
+          <label for="4th year">4th year</label>
+      </div>
+      <br><br>
+      <fieldset>
+        <legend>Interests :</legend>
+        <input type="checkbox" id="" name="sports" unchecked>
+        <label for="sports">Sports</label>
+        <br><br>
+        <input type="checkbox" id="" name="music" unchecked>
+        <label for="music">Music</label>
+        <br><br>
+        <input type="checkbox" id="" name="coding" unchecked>
+        <label for="coding">Coding</label>
+      </fieldset>
+      <br><br>
+      <label for="address">Address :</label>
+      <textarea name="address" id="address" cols="30" rows="10"></textarea>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
